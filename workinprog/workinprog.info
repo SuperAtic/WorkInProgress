@@ -1,0 +1,28 @@
+; $Id: workinprog.info,v 1.0.1.3 2011/03/18 05:26:30 WorkInProg Exp $
+name = WorkInProg
+description = The New Semantic Theme for Drupal 7. WorkInProg is a fancy canvas for site developers. 
+Use WorkInProg as a starting point to facilitate your site development.
+package = Core
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
+
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[header]         = Header
+regions[highlighted]    = Highlighted
+regions[content]        = Content
+regions[navigation]     = Navigation
+regions[help]           = Help
+regions[footer]         = Footer
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+
+
+; Information added by drupal.org packaging script on 2011-02-18
+version = "7.x-1.0"
+core = "7.x"
+project = "workinprog"
+datestamp = "1298008602"
+
